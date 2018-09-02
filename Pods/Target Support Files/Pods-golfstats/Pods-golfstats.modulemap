@@ -1,0 +1,6 @@
+framework module Pods_golfstats {
+  umbrella header "Pods-golfstats-umbrella.h"
+
+  export *
+  module * { export * }
+}
