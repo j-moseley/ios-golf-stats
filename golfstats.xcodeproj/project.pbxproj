@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9727CC00213C75C90085A101 /* golfstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golfstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9727CC00213C75C90085A101 /* Golf Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9727CC03213C75C90085A101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9727CC05213C75C90085A101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9727CC08213C75C90085A101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		9727CC01213C75C90085A101 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9727CC00213C75C90085A101 /* golfstats.app */,
+				9727CC00213C75C90085A101 /* Golf Stats.app */,
 				9727CC17213C75CD0085A101 /* golfstatsTests.xctest */,
 				9727CC22213C75CD0085A101 /* golfstatsUITests.xctest */,
 			);
@@ -99,13 +99,10 @@
 		9727CC02213C75C90085A101 /* golfstats */ = {
 			isa = PBXGroup;
 			children = (
+				9727CC34213C82800085A101 /* Resources */,
 				9727CC03213C75C90085A101 /* AppDelegate.swift */,
 				9727CC05213C75C90085A101 /* ViewController.swift */,
 				9727CC07213C75C90085A101 /* Main.storyboard */,
-				9727CC0D213C75CD0085A101 /* Assets.xcassets */,
-				9727CC0F213C75CD0085A101 /* LaunchScreen.storyboard */,
-				9727CC12213C75CD0085A101 /* Info.plist */,
-				9727CC0A213C75C90085A101 /* golfstats.xcdatamodeld */,
 			);
 			path = golfstats;
 			sourceTree = "<group>";
@@ -128,6 +125,17 @@
 			path = golfstatsUITests;
 			sourceTree = "<group>";
 		};
+		9727CC34213C82800085A101 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9727CC12213C75CD0085A101 /* Info.plist */,
+				9727CC0A213C75C90085A101 /* golfstats.xcdatamodeld */,
+				9727CC0F213C75CD0085A101 /* LaunchScreen.storyboard */,
+				9727CC0D213C75CD0085A101 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,7 +153,7 @@
 			);
 			name = golfstats;
 			productName = golfstats;
-			productReference = 9727CC00213C75C90085A101 /* golfstats.app */;
+			productReference = 9727CC00213C75C90085A101 /* Golf Stats.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9727CC16213C75CD0085A101 /* golfstatsTests */ = {
@@ -436,13 +444,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7M28GQSKZ;
-				INFOPLIST_FILE = golfstats/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/golfstats/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mystats.golfstats;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Golf Stats";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,13 +462,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7M28GQSKZ;
-				INFOPLIST_FILE = golfstats/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/golfstats/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mystats.golfstats;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Golf Stats";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
