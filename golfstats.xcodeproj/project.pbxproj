@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24376CF7D960CB85DBB86E9C /* Pods_golfstatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80536A0907249088B495E5AD /* Pods_golfstatsUITests.framework */; };
+		65AADF1B0192CF8FA0DCDB8C /* Pods_golfstats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D7BEC7774DA9198085951C /* Pods_golfstats.framework */; };
+		6F9CCA1C6AEF6EC6D94FFB5F /* Pods_golfstatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE17C5FC881B89E2669E0A43 /* Pods_golfstatsTests.framework */; };
 		9727CC04213C75C90085A101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9727CC03213C75C90085A101 /* AppDelegate.swift */; };
 		9727CC06213C75C90085A101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9727CC05213C75C90085A101 /* ViewController.swift */; };
 		9727CC09213C75C90085A101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9727CC07213C75C90085A101 /* Main.storyboard */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17FB711ADC92CD06BFB8F6B2 /* Pods-golfstatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfstatsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-golfstatsTests/Pods-golfstatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28D7BEC7774DA9198085951C /* Pods_golfstats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_golfstats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		382B7470999A839BD21A9E02 /* Pods-golfstatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfstatsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-golfstatsUITests/Pods-golfstatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54DF8DE5DC5A09F768D26139 /* Pods-golfstats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfstats.release.xcconfig"; path = "Pods/Target Support Files/Pods-golfstats/Pods-golfstats.release.xcconfig"; sourceTree = "<group>"; };
+		80536A0907249088B495E5AD /* Pods_golfstatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_golfstatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9727CC00213C75C90085A101 /* Golf Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9727CC03213C75C90085A101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9727CC05213C75C90085A101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		9727CC22213C75CD0085A101 /* golfstatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = golfstatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9727CC26213C75CD0085A101 /* golfstatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golfstatsUITests.swift; sourceTree = "<group>"; };
 		9727CC28213C75CD0085A101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B523B06C75461FB9130F25F8 /* Pods-golfstatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfstatsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-golfstatsUITests/Pods-golfstatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE17C5FC881B89E2669E0A43 /* Pods_golfstatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_golfstatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FED210F88CE23F6DFB608B /* Pods-golfstats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfstats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-golfstats/Pods-golfstats.debug.xcconfig"; sourceTree = "<group>"; };
+		F4D899B17793D0FBCC69D330 /* Pods-golfstatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfstatsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-golfstatsTests/Pods-golfstatsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AADF1B0192CF8FA0DCDB8C /* Pods_golfstats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9CCA1C6AEF6EC6D94FFB5F /* Pods_golfstatsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24376CF7D960CB85DBB86E9C /* Pods_golfstatsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				9727CC1A213C75CD0085A101 /* golfstatsTests */,
 				9727CC25213C75CD0085A101 /* golfstatsUITests */,
 				9727CC01213C75C90085A101 /* Products */,
+				F9FED59FD1907F10B6C20275 /* Pods */,
+				E3D041D4091CE14B25333EBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +153,29 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		E3D041D4091CE14B25333EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28D7BEC7774DA9198085951C /* Pods_golfstats.framework */,
+				BE17C5FC881B89E2669E0A43 /* Pods_golfstatsTests.framework */,
+				80536A0907249088B495E5AD /* Pods_golfstatsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9FED59FD1907F10B6C20275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3FED210F88CE23F6DFB608B /* Pods-golfstats.debug.xcconfig */,
+				54DF8DE5DC5A09F768D26139 /* Pods-golfstats.release.xcconfig */,
+				17FB711ADC92CD06BFB8F6B2 /* Pods-golfstatsTests.debug.xcconfig */,
+				F4D899B17793D0FBCC69D330 /* Pods-golfstatsTests.release.xcconfig */,
+				382B7470999A839BD21A9E02 /* Pods-golfstatsUITests.debug.xcconfig */,
+				B523B06C75461FB9130F25F8 /* Pods-golfstatsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9727CC2B213C75CD0085A101 /* Build configuration list for PBXNativeTarget "golfstats" */;
 			buildPhases = (
+				0031757FC622A256D14EB9B4 /* [CP] Check Pods Manifest.lock */,
 				9727CBFC213C75C90085A101 /* Sources */,
 				9727CBFD213C75C90085A101 /* Frameworks */,
 				9727CBFE213C75C90085A101 /* Resources */,
@@ -160,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9727CC2E213C75CD0085A101 /* Build configuration list for PBXNativeTarget "golfstatsTests" */;
 			buildPhases = (
+				F99307888E24DC8311ABF105 /* [CP] Check Pods Manifest.lock */,
 				9727CC13213C75CD0085A101 /* Sources */,
 				9727CC14213C75CD0085A101 /* Frameworks */,
 				9727CC15213C75CD0085A101 /* Resources */,
@@ -178,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9727CC31213C75CD0085A101 /* Build configuration list for PBXNativeTarget "golfstatsUITests" */;
 			buildPhases = (
+				2D5C95C3039539245D59A37B /* [CP] Check Pods Manifest.lock */,
 				9727CC1E213C75CD0085A101 /* Sources */,
 				9727CC1F213C75CD0085A101 /* Frameworks */,
 				9727CC20213C75CD0085A101 /* Resources */,
@@ -261,6 +304,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0031757FC622A256D14EB9B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-golfstats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5C95C3039539245D59A37B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-golfstatsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99307888E24DC8311ABF105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-golfstatsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9727CBFC213C75C90085A101 /* Sources */ = {
@@ -440,6 +540,7 @@
 		};
 		9727CC2C213C75CD0085A101 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FED210F88CE23F6DFB608B /* Pods-golfstats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +559,7 @@
 		};
 		9727CC2D213C75CD0085A101 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DF8DE5DC5A09F768D26139 /* Pods-golfstats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +578,7 @@
 		};
 		9727CC2F213C75CD0085A101 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FB711ADC92CD06BFB8F6B2 /* Pods-golfstatsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +600,7 @@
 		};
 		9727CC30213C75CD0085A101 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D899B17793D0FBCC69D330 /* Pods-golfstatsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +622,7 @@
 		};
 		9727CC32213C75CD0085A101 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382B7470999A839BD21A9E02 /* Pods-golfstatsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +643,7 @@
 		};
 		9727CC33213C75CD0085A101 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B523B06C75461FB9130F25F8 /* Pods-golfstatsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
