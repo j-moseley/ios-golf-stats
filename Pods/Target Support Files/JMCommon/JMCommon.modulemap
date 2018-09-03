@@ -1,0 +1,6 @@
+framework module JMCommon {
+  umbrella header "JMCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
