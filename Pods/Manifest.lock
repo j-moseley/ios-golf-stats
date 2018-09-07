@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: f5dd56b560436ebabaafcd1475a4143339abdfdb
+PODS:
+  - JMCommon (1.0.0)
+
+DEPENDENCIES:
+  - JMCommon
+
+SPEC REPOS:
+  https://github.com/j-moseley/ios-specs.git:
+    - JMCommon
+
+SPEC CHECKSUMS:
+  JMCommon: 4f60941d02841146f6bef989fca88383956df55b
+
+PODFILE CHECKSUM: ac941b212d35ec64be19308bb09590af9094b615
 
 COCOAPODS: 1.5.3

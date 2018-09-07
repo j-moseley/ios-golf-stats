@@ -14,9 +14,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    private lazy var navigationController: UINavigationController = {
+        let navigationController: UINavigationController = UINavigationController()
+       
+        navigationController.setViewControllers([MainViewController()], animated: false)
+        navigationController.setNavigationBarHidden(true, animated: false)
+        
+        return navigationController
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
