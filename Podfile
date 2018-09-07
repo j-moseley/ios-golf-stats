@@ -9,7 +9,7 @@ target 'golfstats' do
 
   # Pods for golfstats
   
-  pod 'JMCommon'
+  pod 'JMCommon', '1.0.0'
 
   target 'golfstatsTests' do
     inherit! :search_paths
